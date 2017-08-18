@@ -20,8 +20,17 @@
   "settings":[],
   "blocks": [
     {
-      "name": "Header",
-      "type": "header",
+      "name": "Head",
+      "type": "head",
+      "multiple" : false,
+      "showOnDefault" : true,
+      "preview_image": "banner.png",
+      "content": {},
+      "block_settings": []
+    },
+    {
+      "name": "Title Block",
+      "type": "title",
       "showOnDefault" : true,
       "preview_image": "banner.png",
       "content": {
@@ -47,6 +56,15 @@
       "content": {
         "text_block" : "<h1>Solid Buttons</h1><h3>Basic Buttons</h3><p>Used most in the interface. Only use another style if a button requires more or less visual weight.</p>"
       },
+      "block_settings": []
+    },
+    {
+      "name": "Foot",
+      "type": "foot",
+      "multiple" : false,
+      "showOnDefault" : true,
+      "preview_image": "banner.png",
+      "content": {},
       "block_settings": []
     }
   ]
