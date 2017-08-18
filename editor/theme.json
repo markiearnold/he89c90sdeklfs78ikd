@@ -10,7 +10,7 @@
   },
   "assets": {
     "css": [
-      "https://nitro.powerhrg.com/assets/application-41cc858640137c008b36a640c90333c38d416516256c2fdb9387e5850845dede.css"
+      "http://prototypeux.com/files/power-styleguide-css.css"
     ],
     "js": [
       "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.js",
