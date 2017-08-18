@@ -10,11 +10,7 @@
   },
   "assets": {
     "css": [
-      "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
-      "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
-      "https://s3.amazonaws.com/belch.io/themes/minimalist/css/style.css",
-      "https://s3.amazonaws.com/belch.io/belch-base-css/v1/belch-defaults.css",
-      "https://s3.amazonaws.com/belch.io/themes/minimalist/css/overrides.css"
+      "https://nitro.powerhrg.com/assets/application-41cc858640137c008b36a640c90333c38d416516256c2fdb9387e5850845dede.css"
     ],
     "js": [
       "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.js",
