@@ -29,15 +29,6 @@
       "block_settings": []
     },
     {
-      "name": "NavBar",
-      "type": "navbar",
-      "multiple" : false,
-      "showOnDefault" : true,
-      "preview_image": "banner.png",
-      "content": {},
-      "block_settings": []
-    },
-    {
       "name": "Title Block",
       "type": "title",
       "showOnDefault" : true,
