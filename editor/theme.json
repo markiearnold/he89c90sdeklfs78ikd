@@ -20,12 +20,22 @@
   "settings":[],
   "blocks": [
     {
-      "name": "Banner",
-      "type": "banner",
+      "name": "Header",
+      "type": "header",
       "showOnDefault" : true,
       "preview_image": "banner.png",
       "content": {
-        "text_block" : "<h1>Section Title</h1><h5>Phasellus ut leo non est volutpat tempor a quis diam. Aliquam hendrerit egestas ipsum ornare pretium. Pellentesque porta purus quis enim ultricies varius. Nunc sit amet facilisis enim. In pretium vestibulum pulvinar. Etiam ligula diam, faucibus non cursus at, eleifend ut est. Phasellus sed libero efficitur est volutpat dictum. Ut quis justo nunc. Sed nec orci quis ante vestibulum vestibulum sed et felis. Donec at lacus quis arcu eleifend efficitur eget non massa. Quisque ac sem sed enim pharetra dapibus quis consequat ex. Sed sagittis nulla id commodo sagittis. Integer velit augue, suscipit in odio ut, tincidunt viverra orci. Donec et aliquam augue.</h5>"
+        "text_block" : "<h1>Use of Button</h1><h2>Buttons are arguably a design system’s most important component. The use of this guideline is to help the Nitro team have an understanding to the different button uses through out Nitro. If used correctly, it will create a more comprehensive interface that the end user can understand from instinct.</h2>"
+      },
+      "block_settings": []
+    },
+    {
+      "name": "Guidelines",
+      "type": "guidelines",
+      "showOnDefault" : true,
+      "preview_image": "banner.png",
+      "content": {
+        "text_block" : "<h3>Guidelines</h3><p>These guidelines are the framework upon which we have built our system for how buttons are used in Nitro.</p>"
       },
       "block_settings": []
     }
