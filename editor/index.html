@@ -382,4 +382,4 @@
   </div>
 </main>
 
-<ng-include ng-init="region = 0" src="include('builder/modules/block-repeat')" class="builderEl"></ng-include>
+<div ng-repeat="region in [0]" ng-include="'builder/modules/block-repeat'" class="builderEl"></div>
