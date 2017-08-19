@@ -22,7 +22,17 @@
     {
       "name": "Head",
       "type": "head",
+      "region" : 0,
       "multiple" : false,
+      "showOnDefault" : true,
+      "preview_image": "banner.png",
+      "content": {},
+      "block_settings": []
+    },
+    {
+      "name": "Row",
+      "type": "row",
+      "region" : 0,
       "showOnDefault" : true,
       "preview_image": "banner.png",
       "content": {},
@@ -31,6 +41,7 @@
     {
       "name": "Title Block",
       "type": "title",
+      "region" : 2,
       "showOnDefault" : true,
       "preview_image": "banner.png",
       "content": {
@@ -41,6 +52,7 @@
     {
       "name": "Guidelines",
       "type": "guidelines",
+      "region" : 2,
       "showOnDefault" : true,
       "preview_image": "banner.png",
       "content": {
@@ -51,6 +63,7 @@
     {
       "name": "Component",
       "type": "component",
+      "region" : 2,
       "showOnDefault" : true,
       "preview_image": "banner.png",
       "content": {
@@ -59,8 +72,20 @@
       "block_settings": []
     },
     {
+      "name": "Guidelines",
+      "type": "guidelines",
+      "region" : 1,
+      "showOnDefault" : true,
+      "preview_image": "banner.png",
+      "content": {
+        "text_block" : "<h3>Guidelines</h3><p>These guidelines are the framework upon which we have built our system for how buttons are used in Nitro.</p>"
+      },
+      "block_settings": []
+    },
+    {
       "name": "Foot",
       "type": "foot",
+      "region" : 0,
       "multiple" : false,
       "showOnDefault" : true,
       "preview_image": "banner.png",
