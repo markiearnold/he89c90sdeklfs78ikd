@@ -1,4 +1,20 @@
 <!--SECTION INDICATOR START-->
+<style class="belch-compile">
+  .power-builder-section-{{$index}} {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    text-align: center;
+    line-height: 120px;
+    color: white;
+    margin: 15px 15px 30px;
+  }
+  .power-builder-section-{{$index}} h3 {
+    color: white;
+    line-height: 120px;
+  }
+</style>
+
 <section class="power-builder-section power-builder-section-{{$index}}">
   <div class="nitrostyle-section-indicator" settings style-setting="background:section_indicator_bg">
     <div rich-block label="Section Title" content="text_block"></div>
