@@ -89,6 +89,36 @@
             "step" : 10
           },
           "required" : false
+        },
+        {
+          "id" : "component_padding",
+          "label" : "Component Padding",
+          "type" : "box",
+          "placeholder" : "",
+          "value" : {
+            "top" : "20px",
+            "right" : null,
+            "bottom" : "20px",
+            "left" : null
+          },
+          "options" : {
+            "step" : 10
+          },
+          "required" : false
+        },
+        {
+          "id" : "foot_padding",
+          "label" : "Bottom Page Padding",
+          "type" : "range",
+          "placeholder" : "0",
+          "value" : "60",
+          "options" : {
+            "cssAttr" : "padding",
+            "min" : 0,
+            "max" : 300,
+            "step" : 10
+          },
+          "required" : false
         }
       ]
     },
