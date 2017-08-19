@@ -34,14 +34,14 @@
           "label" : "Section Indicator Bg",
           "type" : "select_name",
           "placeholder" : "Power Blue",
-          "value" : "sett.options[0]",
+          "value" : "#00a3e0",
           "options" : [
-            {"title": "Power Blue", "value" : "#00a3e0"},
-            {"title": "Power Navy", "value" : "#004976"},
-            {"title": "Power Gold", "value" : "#daaa00"},
-            {"title": "Power Red", "value" : "#f9423a"},
-            {"title": "Power Royal", "value" : "#0072ce"},
-            {"title": "Power Green", "value" : "#00bf6f"}
+            {"title": "Power Blue", "id" : "#00a3e0"},
+            {"title": "Power Navy", "id" : "#004976"},
+            {"title": "Power Gold", "id" : "#daaa00"},
+            {"title": "Power Red", "id" : "#f9423a"},
+            {"title": "Power Royal", "id" : "#0072ce"},
+            {"title": "Power Green", "id" : "#00bf6f"}
           ],
           "required" : false
         }
