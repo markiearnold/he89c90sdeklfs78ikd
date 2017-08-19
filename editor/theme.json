@@ -82,7 +82,7 @@
           "value" : {
             "top" : "20px",
             "right" : null,
-            "bottom" : "20px",
+            "bottom" : "10px",
             "left" : null
           },
           "options" : {
