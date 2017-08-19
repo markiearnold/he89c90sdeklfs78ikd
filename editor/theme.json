@@ -158,6 +158,7 @@
       "type": "section_indicator",
       "region" : 1,
       "showOnDefault" : true,
+      "multiple" : false,
       "preview_image": "banner.png",
       "content": {
         "text_block" : "<h3>.BTN</h3>"
