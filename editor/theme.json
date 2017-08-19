@@ -32,16 +32,16 @@
         {
           "id" : "section_indicator_bg",
           "label" : "Section Indicator Bg",
-          "type" : "select",
+          "type" : "select_name",
           "placeholder" : "Power Blue",
-          "value" : "Power Blue",
+          "value" : {"title": "Power Blue", "value" : "#00a3e0"},
           "options" : [
-            {"Power Navy" : "#004976"},
-            {"Power Gold" : "#daaa00"},
-            {"Power Blue" : "#00a3e0"},
-            {"Power Red" : "#f9423a"},
-            {"Power Royal" : "#0072ce"},
-            {"Power Green" : "#00bf6f"}
+            {"title": "Power Navy", "value" : "#004976"},
+            {"title": "Power Gold", "value" : "#daaa00"},
+            {"title": "Power Blue", "value" : "#00a3e0"},
+            {"title": "Power Red", "value" : "#f9423a"},
+            {"title": "Power Royal", "value" : "#0072ce"},
+            {"title": "Power Green", "value" : "#00bf6f"}
           ],
           "required" : false
         }
