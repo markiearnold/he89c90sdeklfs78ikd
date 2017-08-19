@@ -76,7 +76,7 @@
       "showOnDefault" : true,
       "preview_image": "banner.png",
       "content": {
-        "text_block" : "<h3>.btn</h3>"
+        "text_block" : "<h3>.BTN</h3>"
       },
       "block_settings": []
     },
