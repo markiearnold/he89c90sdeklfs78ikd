@@ -2,6 +2,9 @@
 <style class="belch-compile">
   .power-builder-section-{{$index}} {
     border-top: 1px solid {{getSetting(block, 'divider_color')}};
+    padding-top: {{getSetting(block, 'guideline_padding', 'top')}};
+    padding-bottom: {{getSetting(block, 'guideline_padding', 'bottom')}};
+    box-sizing: border-box;
   }
 </style>
 

@@ -40,14 +40,14 @@
       ]
     },
     {
-      "group" : "Divider",
+      "group" : "Sub Sections",
       "settings" : [
         {
           "id" : "divider_color",
           "label" : "Divider Color",
           "type" : "select_name",
           "placeholder" : "$grey-5",
-          "value" : "#999999",
+          "value" : "#cccccc",
           "options" : [
             {"title": "$grey-1",  "id" : "#f2f2f2"},
             {"title": "$grey-2",  "id" : "#e6e6e6"},
@@ -60,6 +60,39 @@
             {"title": "$grey-9",  "id" : "#333333"},
             {"title": "$black",   "id" : "#1A1A1A"}
           ],
+          "required" : false
+        },
+        {
+          "id" : "guideline_padding",
+          "label" : "Guideline Padding",
+          "type" : "box",
+          "placeholder" : "",
+          "value" : {
+            "top" : "20px",
+            "right" : null,
+            "bottom" : "20px",
+            "left" : null
+          },
+          "options" : {
+            "step" : 10
+          },
+          "required" : false
+        },
+        ,
+        {
+          "id" : "component_padding",
+          "label" : "Component Padding",
+          "type" : "box",
+          "placeholder" : "",
+          "value" : {
+            "top" : "20px",
+            "right" : null,
+            "bottom" : "20px",
+            "left" : null
+          },
+          "options" : {
+            "step" : 10
+          },
           "required" : false
         }
       ]
