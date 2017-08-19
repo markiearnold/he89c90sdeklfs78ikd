@@ -57,7 +57,7 @@
             "step" : 10
           },
           "required" : false
-        }
+        },
         {
           "id" : "guideline_padding",
           "label" : "Guideline Padding",
