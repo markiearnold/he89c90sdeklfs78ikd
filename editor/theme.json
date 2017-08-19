@@ -48,7 +48,7 @@
           "type" : "box",
           "placeholder" : "",
           "value" : {
-            "top" : "30px",
+            "top" : "20px",
             "right" : null,
             "bottom" : "0px",
             "left" : null
@@ -95,7 +95,7 @@
           "label" : "Bottom Page Padding",
           "type" : "range",
           "placeholder" : "0",
-          "value" : "60",
+          "value" : "100",
           "options" : {
             "cssAttr" : "padding",
             "min" : 0,
