@@ -1,4 +1,10 @@
 <!--COMPONENT START-->
+<style class="belch-compile">
+  .power-builder-section-{{$index}} {
+    border: 1px solid {{getSetting(block, 'divider_color')}};
+  }
+</style>
+
 <section class="power-builder-section power-builder-section-{{$index}}">
   <div class="col-md-12">
     <div rich-block label="Component Text Block" content="text_block"></div>

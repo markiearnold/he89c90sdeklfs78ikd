@@ -23,25 +23,42 @@
       "settings" : [
         {
           "id" : "section_indicator_bg",
-          "label" : "Section Indicator Background",
-          "type" : "color",
-          "placeholder" : "rgba(255,255,255,1)",
-          "value" : "rgba(255,255,255,1)",
-          "required" : false
-        },
-        {
-          "id" : "section_indicator_bg",
           "label" : "Section Indicator Bg",
           "type" : "select_name",
-          "placeholder" : "Power Blue",
+          "placeholder" : "$power-blue",
           "value" : "#00a3e0",
           "options" : [
-            {"title": "Power Blue", "id" : "#00a3e0"},
-            {"title": "Power Navy", "id" : "#004976"},
-            {"title": "Power Gold", "id" : "#daaa00"},
-            {"title": "Power Red", "id" : "#f9423a"},
-            {"title": "Power Royal", "id" : "#0072ce"},
-            {"title": "Power Green", "id" : "#00bf6f"}
+            {"title": "$power-blue",  "id" : "#00a3e0"},
+            {"title": "$power-navy",  "id" : "#004976"},
+            {"title": "$power-gold",  "id" : "#daaa00"},
+            {"title": "$power-red",   "id" : "#f9423a"},
+            {"title": "$power-royal", "id" : "#0072ce"},
+            {"title": "$power-green", "id" : "#00bf6f"}
+          ],
+          "required" : false
+        }
+      ]
+    },
+    {
+      "group" : "Divider",
+      "settings" : [
+        {
+          "id" : "divider_color",
+          "label" : "Divider Color",
+          "type" : "select_name",
+          "placeholder" : "$grey-5",
+          "value" : "#999999",
+          "options" : [
+            {"title": "$grey-1",  "id" : "#f2f2f2"},
+            {"title": "$grey-2",  "id" : "#e6e6e6"},
+            {"title": "$grey-3",  "id" : "#cccccc"},
+            {"title": "$grey-4",  "id" : "#b3b3b3"},
+            {"title": "$grey-5",  "id" : "#999999"},
+            {"title": "$grey-6",  "id" : "gray"},
+            {"title": "$grey-7",  "id" : "#666666"},
+            {"title": "$grey-8",  "id" : "#4d4d4d"},
+            {"title": "$grey-9",  "id" : "#333333"},
+            {"title": "$black",   "id" : "#1A1A1A"}
           ],
           "required" : false
         }
