@@ -34,7 +34,7 @@
           "label" : "Section Indicator Bg",
           "type" : "select_name",
           "placeholder" : "Power Blue",
-          "value" : {"title": "Power Blue", "value" : "#00a3e0"},
+          "value" : "Power Blue",
           "options" : [
             {"title": "Power Navy", "value" : "#004976"},
             {"title": "Power Gold", "value" : "#daaa00"},
