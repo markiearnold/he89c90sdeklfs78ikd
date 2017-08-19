@@ -17,7 +17,37 @@
       "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
     ]
   },
-  "settings":[],
+  "settings":[
+    {
+      "group" : "Sidebar",
+      "settings" : [
+        {
+          "id" : "section_indicator_bg",
+          "label" : "Section Indicator Background",
+          "type" : "color",
+          "placeholder" : "rgba(255,255,255,1)",
+          "value" : "rgba(255,255,255,1)",
+          "required" : false
+        },
+        {
+          "id" : "section_indicator_bg",
+          "label" : "Section Indicator Bg",
+          "type" : "select",
+          "placeholder" : "Power Blue",
+          "value" : "Power Blue",
+          "options" : [
+            {"Power Navy" : "#004976"},
+            {"Power Gold" : "#daaa00"},
+            {"Power Blue" : "#00a3e0"},
+            {"Power Red" : "#f9423a"},
+            {"Power Royal" : "#0072ce"},
+            {"Power Green" : "#00bf6f"}
+          ],
+          "required" : false
+        }
+      ]
+    }
+  ],
   "blocks": [
     {
       "name": "Head",
@@ -37,6 +67,17 @@
       "showOnDefault" : true,
       "preview_image": "banner.png",
       "content": {},
+      "block_settings": []
+    },
+    {
+      "name": "Section Indicator",
+      "type": "section_indicator",
+      "region" : 1,
+      "showOnDefault" : true,
+      "preview_image": "banner.png",
+      "content": {
+        "text_block" : ".btn"
+      },
       "block_settings": []
     },
     {
