@@ -205,10 +205,10 @@
       "showOnDefault" : true,
       "preview_image": "banner.png",
       "content": {
-        "text_block_1" : "<p><a class="btn btn-default">Basic</a></p><p>Basic&nbsp;Default</p>",
-        "text_block_2" : "<p><a class="btn btn-default">Basic</a></p><p>Basic&nbsp;Default</p>",
-        "text_block_3" : "<p><a class="btn btn-default">Basic</a></p><p>Basic&nbsp;Default</p>",
-        "text_block_4" : "<p><a class="btn btn-default">Basic</a></p><p>Basic&nbsp;Default</p>"
+        "text_block_1" : "<p><a class=\"btn btn-default\">Basic</a></p><p>Basic&nbsp;Default</p>",
+        "text_block_2" : "<p><a class=\"btn btn-default\">Basic</a></p><p>Basic&nbsp;Default</p>",
+        "text_block_3" : "<p><a class=\"btn btn-default\">Basic</a></p><p>Basic&nbsp;Default</p>",
+        "text_block_4" : "<p><a class=\"btn btn-default\">Basic</a></p><p>Basic&nbsp;Default</p>"
       },
       "block_settings": [
         {
