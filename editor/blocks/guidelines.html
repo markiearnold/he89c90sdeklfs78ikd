@@ -2,15 +2,19 @@
 <style class="belch-compile">
   .power-builder-section-{{$index}} {
     border-top: 1px solid {{getSetting(block, 'divider_color')}};
-    padding-top: {{getSetting(block, 'guideline_padding', 'top')}};
-    padding-bottom: {{getSetting(block, 'guideline_padding', 'bottom')}};
+  }
+  .power-builder-section-{{$index}} .row {
+    padding-top: {{getSetting(block, 'component_padding', 'top')}};
+    padding-bottom: {{getSetting(block, 'component_padding', 'bottom')}};
     box-sizing: border-box;
   }
 </style>
 
 <section class="power-builder-section power-builder-section-{{$index}}">
-  <div class="col-md-12">
-    <div rich-block label="Guidelines Text Block" content="text_block"></div>
+  <div class="row">
+    <div class="col-md-12">
+      <div rich-block label="Guidelines Text Block" content="text_block"></div>
+    </div>
   </div>
 </section>
 <!--GUIDELINES END-->
