@@ -78,7 +78,6 @@
           },
           "required" : false
         },
-        ,
         {
           "id" : "component_padding",
           "label" : "Component Padding",
