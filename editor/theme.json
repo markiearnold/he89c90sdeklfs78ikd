@@ -218,8 +218,8 @@
               "id" : "col_count",
               "label" : "Column Count",
               "type" : "select_name",
-              "placeholder" : "$grey-5",
-              "value" : "#cccccc",
+              "placeholder" : "Three: .col-4/.col-4/.col-4",
+              "value" : "4/4/4",
               "options" : [
                 {"title": "One: .col-12",  "id" : "12"},
                 {"title": "Two: .col-6/.col-6",  "id" : "6/6"},
