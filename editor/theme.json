@@ -200,6 +200,16 @@
             {"title": "$black",   "id" : "#1A1A1A"}
           ],
           "required" : false
+        },
+        {
+          "id" : "divider_color",
+          "label" : "Divider Color",
+          "type" : "select_name",
+          "placeholder" : "$grey-5",
+          "value" : "#cccccc",
+          "options" : "custom_colors",
+          "lists" : ["grey_colors"],
+          "required" : false
         }
       ]
     }
