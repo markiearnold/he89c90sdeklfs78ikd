@@ -282,9 +282,9 @@
       "url" : "buttons/solid/success/default.html"
     },
     {
-      "title" : "BUTTON/Solid/Success/Dropdown",
-      "description" : "BUTTON/Solid/Success/Dropdown",
-      "url" : "buttons/solid/success/dropdown.html"
+      "title" : "BUTTON/Solid/Success/Icon",
+      "description" : "BUTTON/Solid/Success/Icon",
+      "url" : "buttons/solid/success/icon.html"
     },
     {
       "title" : "BUTTON/Solid/Destructive/Default",
@@ -292,9 +292,9 @@
       "url" : "buttons/solid/destructive/default.html"
     },
     {
-      "title" : "BUTTON/Solid/Destructive/Dropdown",
-      "description" : "BUTTON/Solid/Destructive/Dropdown",
-      "url" : "buttons/solid/destructive/dropdown.html"
+      "title" : "BUTTON/Solid/Destructive/Icon",
+      "description" : "BUTTON/Solid/Destructive/Icon",
+      "url" : "buttons/solid/destructive/icon.html"
     }
   ]
 }
