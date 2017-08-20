@@ -265,6 +265,36 @@
       "title" : "BUTTON/Solid/Primary/Default",
       "description" : "BUTTON/Solid/Primary/Default",
       "url" : "buttons/solid/primary/default.html"
+    },
+    {
+      "title" : "BUTTON/Solid/Primary/Dropdown",
+      "description" : "BUTTON/Solid/Primary/Dropdown",
+      "url" : "buttons/solid/primary/dropdown.html"
+    },
+    {
+      "title" : "BUTTON/Solid/Primary/Icon",
+      "description" : "BUTTON/Solid/Primary/Icon",
+      "url" : "buttons/solid/primary/icon.html"
+    },
+    {
+      "title" : "BUTTON/Solid/Success/Default",
+      "description" : "BUTTON/Solid/Success/Default",
+      "url" : "buttons/solid/success/default.html"
+    },
+    {
+      "title" : "BUTTON/Solid/Success/Dropdown",
+      "description" : "BUTTON/Solid/Success/Dropdown",
+      "url" : "buttons/solid/success/dropdown.html"
+    },
+    {
+      "title" : "BUTTON/Solid/Destructive/Default",
+      "description" : "BUTTON/Solid/Destructive/Default",
+      "url" : "buttons/solid/destructive/default.html"
+    },
+    {
+      "title" : "BUTTON/Solid/Destructive/Dropdown",
+      "description" : "BUTTON/Solid/Destructive/Dropdown",
+      "url" : "buttons/solid/destructive/dropdown.html"
     }
   ]
 }
