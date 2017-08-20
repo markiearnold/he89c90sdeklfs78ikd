@@ -204,8 +204,8 @@
         {
           "id" : "divider_color",
           "label" : "Divider Color",
-          "type" : "select_name",
-          "placeholder" : "$grey-5",
+          "type" : "select_custom_color",
+          "placeholder" : "$grey-3",
           "value" : "#cccccc",
           "options" : "custom_colors",
           "lists" : ["grey_colors"],
