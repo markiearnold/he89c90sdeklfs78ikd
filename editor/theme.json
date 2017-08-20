@@ -71,7 +71,7 @@
       ]
     },
     {
-      "group" : "Spacing",
+      "group" : "Title",
       "settings" : [
         {
           "id" : "title_padding",
@@ -88,7 +88,12 @@
             "step" : 10
           },
           "required" : false
-        },
+        }
+      ]
+    },
+    {
+      "group" : "Guidelines",
+      "settings" : [
         {
           "id" : "guideline_padding",
           "label" : "Guideline Padding",
@@ -104,7 +109,12 @@
             "step" : 10
           },
           "required" : false
-        },
+        }
+      ]
+    },
+    {
+      "group" : "Components",
+      "settings" : [
         {
           "id" : "component_padding",
           "label" : "Component Padding",
@@ -120,7 +130,12 @@
             "step" : 10
           },
           "required" : false
-        },
+        }
+      ]
+    },
+    {
+      "group" : "Spacing",
+      "settings" : [
         {
           "id" : "foot_padding",
           "label" : "Bottom Page Padding",
