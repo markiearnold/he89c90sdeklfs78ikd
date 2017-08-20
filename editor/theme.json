@@ -295,6 +295,26 @@
       "title" : "BUTTON/Solid/Destructive/Icon",
       "description" : "BUTTON/Solid/Destructive/Icon",
       "url" : "buttons/solid/destructive/icon.html"
+    },
+    {
+      "title" : "BUTTON/Solid/Disabled/Default",
+      "description" : "BUTTON/Solid/Disabled/Default",
+      "url" : "buttons/solid/disabled/default.html"
+    },
+    {
+      "title" : "BUTTON/Solid/Disabled/Dropdown",
+      "description" : "BUTTON/Solid/Disabled/Dropdown",
+      "url" : "buttons/solid/disabled/dropdown.html"
+    },
+    {
+      "title" : "BUTTON/Solid/Disabled/Icon",
+      "description" : "BUTTON/Solid/Disabled/Icon",
+      "url" : "buttons/solid/disabled/icon.html"
+    },
+    {
+      "title" : "BUTTON/Solid/Plain/Default",
+      "description" : "BUTTON/Solid/Plain/Default",
+      "url" : "buttons/solid/plain/default.html"
     }
   ]
 }
