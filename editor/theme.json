@@ -184,26 +184,6 @@
         {
           "id" : "divider_color",
           "label" : "Divider Color",
-          "type" : "select_name",
-          "placeholder" : "$grey-5",
-          "value" : "#cccccc",
-          "options" : [
-            {"title": "$grey-1",  "id" : "#f2f2f2"},
-            {"title": "$grey-2",  "id" : "#e6e6e6"},
-            {"title": "$grey-3",  "id" : "#cccccc"},
-            {"title": "$grey-4",  "id" : "#b3b3b3"},
-            {"title": "$grey-5",  "id" : "#999999"},
-            {"title": "$grey-6",  "id" : "gray"},
-            {"title": "$grey-7",  "id" : "#666666"},
-            {"title": "$grey-8",  "id" : "#4d4d4d"},
-            {"title": "$grey-9",  "id" : "#333333"},
-            {"title": "$black",   "id" : "#1A1A1A"}
-          ],
-          "required" : false
-        },
-        {
-          "id" : "divider_color",
-          "label" : "Divider Color",
           "type" : "select_custom_color",
           "placeholder" : "$grey-3",
           "value" : "#cccccc",
