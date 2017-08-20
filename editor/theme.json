@@ -62,17 +62,10 @@
         {
           "id" : "section_indicator_bg",
           "label" : "Section Indicator Bg",
-          "type" : "select_name",
+          "type" : "select_custom_color",
           "placeholder" : "$power-blue",
           "value" : "#00a3e0",
-          "options" : [
-            {"title": "$power-blue",  "id" : "#00a3e0"},
-            {"title": "$power-navy",  "id" : "#004976"},
-            {"title": "$power-gold",  "id" : "#daaa00"},
-            {"title": "$power-red",   "id" : "#f9423a"},
-            {"title": "$power-royal", "id" : "#0072ce"},
-            {"title": "$power-green", "id" : "#00bf6f"}
-          ],
+          "options" : "custom_colors",
           "required" : false
         }
       ]
