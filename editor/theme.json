@@ -244,5 +244,27 @@
       "content": {},
       "block_settings": []
     }
+  ],
+  "components" : [
+    {
+      "title" : "BUTTON/Solid/Basic/Default",
+      "description" : "BUTTON/Solid/Basic/Default",
+      "url" : "buttons/solid/basic/default.html"
+    },
+    {
+      "title" : "BUTTON/Solid/Basic/Dropdown",
+      "description" : "BUTTON/Solid/Basic/Dropdown",
+      "url" : "buttons/solid/basic/dropdown.html"
+    },
+    {
+      "title" : "BUTTON/Solid/Basic/Icon",
+      "description" : "BUTTON/Solid/Basic/Icon",
+      "url" : "buttons/solid/basic/icon.html"
+    },
+    {
+      "title" : "BUTTON/Solid/Primary/Default",
+      "description" : "BUTTON/Solid/Primary/Default",
+      "url" : "buttons/solid/primary/default.html"
+    }
   ]
 }
