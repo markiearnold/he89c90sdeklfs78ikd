@@ -5,9 +5,6 @@
     "version": "1.0",
     "type": "page"
   },
-  "settings": {
-
-  },
   "assets": {
     "css": [
       "http://prototypeux.com/files/power-styleguide-css.css"
