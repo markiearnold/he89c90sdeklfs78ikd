@@ -1,6 +1,6 @@
 <!--SECTION INDICATOR START-->
 <style class="belch-compile">
-  .power-builder-section-{{$index}} .nitrostyle-section-indicator {
+  .power-builder-section-{{block_id}} .nitrostyle-section-indicator {
     width: 120px;
     height: 120px;
     border-radius: 60px;
@@ -9,13 +9,13 @@
     color: white;
     margin: 15px 15px 30px;
   }
-  .power-builder-section-{{$index}} .nitrostyle-section-indicator h3 {
+  .power-builder-section-{{block_id}} .nitrostyle-section-indicator h3 {
     color: white;
     line-height: 120px;
   }
 </style>
 
-<section class="power-builder-section power-builder-section-{{$index}} section-indicator-block">
+<section class="power-builder-section power-builder-section-{{block_id}} section-indicator-block">
   <div class="nitrostyle-section-indicator" settings style-setting="background:section_indicator_bg">
     <div rich-block label="Section Title" content="text_block"></div>
   </div>

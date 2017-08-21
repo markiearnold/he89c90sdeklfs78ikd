@@ -1,13 +1,13 @@
 <!--HEADER START-->
 <style class="belch-compile">
-  .power-builder-section-{{$index}} .row {
+  .power-builder-section-{{block_id}} .row {
     padding-top: {{getSetting(block, 'title_padding', 'top')}};
     padding-bottom: {{getSetting(block, 'title_padding', 'bottom')}};
     box-sizing: border-box;
   }
 </style>
 
-<section class="power-builder-section power-builder-section-{{$index}} title-block">
+<section class="power-builder-section power-builder-section-{{block_id}} title-block">
   <div class="row">
     <div class="col-md-12">
       <div rich-block label="Header Text Block" content="text_block">&nbsp;</div>
