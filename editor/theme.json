@@ -294,6 +294,45 @@
       ]
     },
     {
+      "name": "Component Grid",
+      "type": "component_grid",
+      "region" : 2,
+      "showOnDefault" : true,
+      "preview_image": "banner.png",
+      "content": {},
+      "block_settings": [
+        {
+          "group" : "Content",
+          "settings" : [
+            {
+              "id" : "col_count",
+              "label" : "Column Count",
+              "type" : "select_name",
+              "placeholder" : "Three: .col-4/.col-4/.col-4",
+              "value" : "4/4/4",
+              "options" : [
+                {"title": "One: .col-12",  "id" : "12"},
+                {"title": "Two: .col-6/.col-6",  "id" : "6/6"},
+                {"title": "Two: .col-4/.col-8",  "id" : "4/8"},
+                {"title": "Two: .col-8/.col-4",  "id" : "8/4"},
+                {"title": "Three: .col-4/.col-4/.col-4",  "id" : "4/4/4"},
+                {"title": "Four: .col-3/.col-3/.col-3/.col-3",  "id" : "3/3/3/3"}
+              ],
+              "required" : false
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "title" : "BUTTON/Solid/Disabled/Dropdown",
+          "grid_space" : 1,
+          "description" : "BUTTON/Solid/Disabled/Dropdown",
+          "url" : "buttons/solid/disabled/dropdown.html"
+        }
+      ]
+    },
+    {
       "name": "Foot",
       "type": "foot",
       "region" : 0,
