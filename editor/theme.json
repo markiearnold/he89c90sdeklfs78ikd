@@ -325,10 +325,16 @@
       ],
       "components": [
         {
-          "title" : "BUTTON/Solid/Disabled/Dropdown",
           "grid_space" : 1,
+          "title" : "BUTTON/Solid/Disabled/Dropdown",
           "description" : "BUTTON/Solid/Disabled/Dropdown",
           "url" : "buttons/solid/disabled/dropdown.html"
+        },
+        {
+          "grid_space" : 2,
+          "title" : "BUTTON/Solid/Primary/Default",
+          "description" : "BUTTON/Solid/Primary/Default",
+          "url" : "buttons/solid/primary/default.html"
         }
       ]
     },
