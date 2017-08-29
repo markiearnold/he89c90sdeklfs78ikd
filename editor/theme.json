@@ -331,7 +331,7 @@
           "url" : "buttons/solid/disabled/dropdown.html"
         },
         {
-          "grid_space" : 2,
+          "grid_space" : 3,
           "title" : "BUTTON/Solid/Primary/Default",
           "description" : "BUTTON/Solid/Primary/Default",
           "url" : "buttons/solid/primary/default.html"
