@@ -297,12 +297,12 @@
       "name": "Component Grid",
       "type": "component_grid",
       "region" : 2,
-      "showOnDefault" : true,
+      "showOnDefault" : false,
       "preview_image": "banner.png",
       "content": {},
       "block_settings": [
         {
-          "group" : "Content",
+          "group" : "Grid",
           "settings" : [
             {
               "id" : "col_count",
