@@ -308,8 +308,8 @@
               "id" : "col_count",
               "label" : "Column Count",
               "type" : "select_name",
-              "placeholder" : "Three: .col-4/.col-4/.col-4",
-              "value" : "4/4/4",
+              "placeholder" : "One: .col-12",
+              "value" : "12",
               "options" : [
                 {"title": "One: .col-12",  "id" : "12"},
                 {"title": "Two: .col-6/.col-6",  "id" : "6/6"},
@@ -326,15 +326,9 @@
       "components": [
         {
           "grid_space" : 1,
-          "title" : "BUTTON/Solid/Disabled/Dropdown",
-          "description" : "BUTTON/Solid/Disabled/Dropdown",
-          "url" : "buttons/solid/disabled/dropdown.html"
-        },
-        {
-          "grid_space" : 3,
-          "title" : "BUTTON/Solid/Primary/Default",
-          "description" : "BUTTON/Solid/Primary/Default",
-          "url" : "buttons/solid/primary/default.html"
+          "title" : "TABLES/Basic",
+          "description" : "TABLES/Basic",
+          "url" : "tables/basic.html"
         }
       ]
     },
@@ -419,6 +413,11 @@
       "title" : "BUTTON/Solid/Plain/Default",
       "description" : "BUTTON/Solid/Plain/Default",
       "url" : "buttons/solid/plain/default.html"
+    },
+    {
+      "title" : "TABLES/Basic",
+      "description" : "TABLES/Basic",
+      "url" : "tables/basic.html"
     }
   ]
 }
