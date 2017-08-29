@@ -297,7 +297,7 @@
       "name": "Component Grid",
       "type": "component_grid",
       "region" : 2,
-      "showOnDefault" : false,
+      "showOnDefault" : true,
       "preview_image": "banner.png",
       "content": {},
       "block_settings": [
