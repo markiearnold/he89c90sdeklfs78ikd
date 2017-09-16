@@ -14,69 +14,6 @@
       "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
     ]
   },
-  "custom_colors" : [
-    {
-      "name" : "main_colors",
-      "colors" : [
-        "004976", "$power-navy",
-        "daaa00", "$power-gold",
-        "00a3e0", "$power-blue",
-        "f9423a", "$power-red",
-        "0072ce", "$power-royal",
-        "00bf6f", "$power-green"
-      ]
-    },
-    {
-      "name" : "interface_colors",
-      "colors" : [
-        "F9FAFB", "$sky-lighter",
-        "F4F6F8", "$sky-light",
-        "DFE3E8", "$sky",
-        "C4CDD5", "$sky-dark",
-        "919EAB", "$ink-lightest",
-        "637381", "$ink-lighter",
-        "454F5B", "$ink-light",
-        "273142", "$ink",
-        "212B36", "$ink-dark"
-      ]
-    },
-    {
-      "name" : "grey_colors",
-      "colors" : [
-        "f2f2f2", "$grey-1",
-        "e6e6e6", "$grey-2",
-        "cccccc", "$grey-3",
-        "b3b3b3", "$grey-4",
-        "999999", "$grey-5",
-        "787878", "$grey-6",
-        "666666", "$grey-7",
-        "4d4d4d", "$grey-8",
-        "333333", "$grey-9",
-        "1A1A1A", "$black"
-      ]
-    },
-    {
-      "name" : "highlight_colors",
-      "colors" : [
-        "F0F3F8", "$light-blue",
-        "fffcda", "$light-yellow",
-        "FFFF9E", "$medium-yellow"
-      ]
-    },
-    {
-      "name" : "offbrand_colors",
-      "colors" : [
-        "f8eb30", "$alex-yellow",
-        "27AE60", "$pine-green",
-        "2ecc71", "$online-green",
-        "dbdde2", "$medium-blue",
-        "FF7800", "$dark-orange",
-        "9b59b6", "$light-purple",
-        "8e44ad", "$medium-purple",
-        "44C0C1", "$medium-teal"
-      ]
-    }
-  ],
   "settings":[
     {
       "group" : "Sidebar",
@@ -294,45 +231,6 @@
       ]
     },
     {
-      "name": "Component Grid",
-      "type": "component_grid",
-      "region" : 2,
-      "showOnDefault" : true,
-      "preview_image": "banner.png",
-      "content": {},
-      "block_settings": [
-        {
-          "group" : "Grid",
-          "settings" : [
-            {
-              "id" : "col_count",
-              "label" : "Column Count",
-              "type" : "select_name",
-              "placeholder" : "One: .col-12",
-              "value" : "12",
-              "options" : [
-                {"title": "One: .col-12",  "id" : "12"},
-                {"title": "Two: .col-6/.col-6",  "id" : "6/6"},
-                {"title": "Two: .col-4/.col-8",  "id" : "4/8"},
-                {"title": "Two: .col-8/.col-4",  "id" : "8/4"},
-                {"title": "Three: .col-4/.col-4/.col-4",  "id" : "4/4/4"},
-                {"title": "Four: .col-3/.col-3/.col-3/.col-3",  "id" : "3/3/3/3"}
-              ],
-              "required" : false
-            }
-          ]
-        }
-      ],
-      "components": [
-        {
-          "grid_space" : 1,
-          "title" : "TABLES/Basic",
-          "description" : "TABLES/Basic",
-          "url" : "tables/basic.html"
-        }
-      ]
-    },
-    {
       "name": "Foot",
       "type": "foot",
       "region" : 0,
@@ -341,88 +239,6 @@
       "preview_image": "banner.png",
       "content": {},
       "block_settings": []
-    }
-  ],
-  "components" : [
-    {
-      "title" : "BUTTON/Solid/Basic/Default",
-      "description" : "BUTTON/Solid/Basic/Default",
-      "url" : "buttons/solid/basic/default.html"
-    },
-    {
-      "title" : "BUTTON/Solid/Basic/Dropdown",
-      "description" : "BUTTON/Solid/Basic/Dropdown",
-      "url" : "buttons/solid/basic/dropdown.html"
-    },
-    {
-      "title" : "BUTTON/Solid/Basic/Icon",
-      "description" : "BUTTON/Solid/Basic/Icon",
-      "url" : "buttons/solid/basic/icon.html"
-    },
-    {
-      "title" : "BUTTON/Solid/Primary/Default",
-      "description" : "BUTTON/Solid/Primary/Default",
-      "url" : "buttons/solid/primary/default.html"
-    },
-    {
-      "title" : "BUTTON/Solid/Primary/Dropdown",
-      "description" : "BUTTON/Solid/Primary/Dropdown",
-      "url" : "buttons/solid/primary/dropdown.html"
-    },
-    {
-      "title" : "BUTTON/Solid/Primary/Icon",
-      "description" : "BUTTON/Solid/Primary/Icon",
-      "url" : "buttons/solid/primary/icon.html"
-    },
-    {
-      "title" : "BUTTON/Solid/Success/Default",
-      "description" : "BUTTON/Solid/Success/Default",
-      "url" : "buttons/solid/success/default.html"
-    },
-    {
-      "title" : "BUTTON/Solid/Success/Icon",
-      "description" : "BUTTON/Solid/Success/Icon",
-      "url" : "buttons/solid/success/icon.html"
-    },
-    {
-      "title" : "BUTTON/Solid/Destructive/Default",
-      "description" : "BUTTON/Solid/Destructive/Default",
-      "url" : "buttons/solid/destructive/default.html"
-    },
-    {
-      "title" : "BUTTON/Solid/Destructive/Icon",
-      "description" : "BUTTON/Solid/Destructive/Icon",
-      "url" : "buttons/solid/destructive/icon.html"
-    },
-    {
-      "title" : "BUTTON/Solid/Disabled/Default",
-      "description" : "BUTTON/Solid/Disabled/Default",
-      "url" : "buttons/solid/disabled/default.html"
-    },
-    {
-      "title" : "BUTTON/Solid/Disabled/Dropdown",
-      "description" : "BUTTON/Solid/Disabled/Dropdown",
-      "url" : "buttons/solid/disabled/dropdown.html"
-    },
-    {
-      "title" : "BUTTON/Solid/Disabled/Icon",
-      "description" : "BUTTON/Solid/Disabled/Icon",
-      "url" : "buttons/solid/disabled/icon.html"
-    },
-    {
-      "title" : "BUTTON/Solid/Plain/Default",
-      "description" : "BUTTON/Solid/Plain/Default",
-      "url" : "buttons/solid/plain/default.html"
-    },
-    {
-      "title" : "TABLES/Basic",
-      "description" : "TABLES/Basic",
-      "url" : "tables/basic.html"
-    },
-    {
-      "title" : "TABLES/Inverse",
-      "description" : "TABLES/Inverse",
-      "url" : "tables/inverse.html"
     }
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "name": "Head",
+  "type": "head",
+  "region" : 0,
+  "multiple" : false,
+  "showOnDefault" : true,
+  "preview_image": "banner.png",
+  "content": {},
+  "block_settings": []
+}

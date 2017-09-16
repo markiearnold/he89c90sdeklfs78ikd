@@ -1,0 +1,10 @@
+{
+  "name": "Foot",
+  "type": "foot",
+  "region" : 0,
+  "multiple" : false,
+  "showOnDefault" : true,
+  "preview_image": "banner.png",
+  "content": {},
+  "block_settings": []
+}

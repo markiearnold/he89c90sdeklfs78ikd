@@ -1,4 +1,11 @@
 {
-  "name" : "Guidelines",
-  "file" : "guidelines.html"
+  "name": "Guidelines",
+  "type": "guidelines",
+  "region" : 2,
+  "showOnDefault" : true,
+  "preview_image": "banner.png",
+  "content": {
+    "text_block" : "<h3>Guidelines</h3><p>These guidelines are the framework upon which we have built our system for how buttons are used in Nitro.</p>"
+  },
+  "block_settings": []
 }

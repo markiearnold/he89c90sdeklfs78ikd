@@ -1,0 +1,36 @@
+{
+  "name": "Utlity Grid",
+  "type": "utility_grid",
+  "region" : 2,
+  "showOnDefault" : true,
+  "preview_image": "banner.png",
+  "content": {
+    "text_block_1" : "<p><a class=\"btn btn-default\">Basic</a></p><p>Basic&nbsp;Default</p>",
+    "text_block_2" : "<p><button class=\"btn btn-default dropdown-toggle\">Basic <span class=\"fa fa-angle-down\">&nbsp;</span></button></p><p>Basic Default with dropdown menu option</p>",
+    "text_block_3" : "<p><button class=\"btn btn-default\"><em class=\"fa fa-file-text-o\">&nbsp;</em> Basic</button></p><p>Basic Default with icon signifier</p>",
+    "text_block_4" : "<p><a class=\"btn btn-default\">Basic</a></p><p>Basic&nbsp;Default</p>"
+  },
+  "block_settings": [
+    {
+      "group" : "Content",
+      "settings" : [
+        {
+          "id" : "col_count",
+          "label" : "Column Count",
+          "type" : "select_name",
+          "placeholder" : "Three: .col-4/.col-4/.col-4",
+          "value" : "4/4/4",
+          "options" : [
+            {"title": "One: .col-12",  "id" : "12"},
+            {"title": "Two: .col-6/.col-6",  "id" : "6/6"},
+            {"title": "Two: .col-4/.col-8",  "id" : "4/8"},
+            {"title": "Two: .col-8/.col-4",  "id" : "8/4"},
+            {"title": "Three: .col-4/.col-4/.col-4",  "id" : "4/4/4"},
+            {"title": "Four: .col-3/.col-3/.col-3/.col-3",  "id" : "3/3/3/3"}
+          ],
+          "required" : false
+        }
+      ]
+    }
+  ]
+}

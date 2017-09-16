@@ -1,0 +1,11 @@
+{
+  "name": "Title Block",
+  "type": "title",
+  "region" : 2,
+  "showOnDefault" : true,
+  "preview_image": "banner.png",
+  "content": {
+    "text_block" : "<h1>Use of Button</h1><h2>Buttons are arguably a design system’s most important component. The use of this guideline is to help the Nitro team have an understanding to the different button uses through out Nitro. If used correctly, it will create a more comprehensive interface that the end user can understand from instinct.</h2>"
+  },
+  "block_settings": []
+}

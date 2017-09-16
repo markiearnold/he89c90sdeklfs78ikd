@@ -1,0 +1,11 @@
+{
+  "name": "Component",
+  "type": "component",
+  "region" : 2,
+  "showOnDefault" : true,
+  "preview_image": "banner.png",
+  "content": {
+    "text_block" : "<h1>Solid Buttons</h1><h3>Basic Buttons</h3><p>Used most in the interface. Only use another style if a button requires more or less visual weight.</p>"
+  },
+  "block_settings": []
+}
