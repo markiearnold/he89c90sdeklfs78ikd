@@ -7,7 +7,8 @@
   },
   "assets": {
     "css": [
-      "http://prototypeux.com/files/power-styleguide-css.css"
+      "http://prototypeux.com/files/power-styleguide-css.css",
+      "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     ],
     "js": [
       "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.js",
