@@ -16,7 +16,7 @@
     ]
   },
   "react_components" : {
-    "repository" : "powerhome/nitro-styleguide",
+    "repository" : "https://github.com/powerhome/nitro-styleguide",
     "config" : null
   },
   "custom_colors" : [
