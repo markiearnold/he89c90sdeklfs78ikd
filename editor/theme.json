@@ -221,6 +221,16 @@
       "block_settings": []
     },
     {
+      "name": "Header",
+      "type": "header",
+      "region" : 0,
+      "multiple" : false,
+      "showOnDefault" : true,
+      "preview_image": "banner.png",
+      "content": {},
+      "block_settings": []
+    },
+    {
       "name": "Row",
       "type": "row",
       "region" : 0,
