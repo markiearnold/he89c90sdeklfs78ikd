@@ -1,10 +1,21 @@
 <!--BEST PRACTICES START-->
+<style class="belch-compile">
+  .power-builder-section-{{block_id}} .card .card-block .card-block-separator:first-child {
+    border-top: 0px;
+    padding-top: 0;
+  }
+  .power-builder-section-{{block_id}} .card .card-block .card-block-separator:last-child {
+    border-bottom: 0px;
+    padding-bottom: 0;
+  }
+</style>
+
 <section class="power-builder-section power-builder-section-{{block_id}} best-practices-block">
 
   <div class="row">
     <div class="col-md-6 col-sm-6 col-xs-6 pb-md-5 pb-sm-5">
       <div class="card mb-4">
-         <div class="card-header bg-power-green">&nbsp;</div>
+         <div class="card-header bg-power-green"></div>
          <div class="card-block">
             <div rich-block label="Best Practices Do Block" content="text_block_1"></div>
          </div>
@@ -13,7 +24,7 @@
 
    <div class="col-md-6 col-sm-6 col-xs-6 pb-md-5 pb-sm-5">
       <div class="card mb-4">
-         <div class="card-header bg-power-red">&nbsp;</div>
+         <div class="card-header bg-power-red"></div>
          <div class="card-block">
             <div rich-block label="Best Practices Don't Block" content="text_block_2"></div>
          </div>
