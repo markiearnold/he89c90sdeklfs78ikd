@@ -1,0 +1,12 @@
+{
+  "name": "Best Practice",
+  "type": "best_practices",
+  "region" : 2,
+  "showOnDefault" : false,
+  "preview_image": "banner.png",
+  "content": {
+    "text_block_1" : "<div class=\"card-block-separator border-top-0 pt-0\"><span class=\"fa fa-check text-power-green\">&nbsp;</span> Create New Email</div>",
+    "text_block_2" : "<div class=\"card-block-separator border-top-0 pt-0\"><span class=\"fa fa-times text-power-red\">&nbsp;</span> Create a new email</div>"
+  },
+  "block_settings": []
+}
